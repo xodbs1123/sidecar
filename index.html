@@ -1,9 +1,56 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title> I want to go home </title>
-    </head>
-    <body>
-      <h1> I want to go home </h1>
-    </body>
+<head>
+    <title>Docker Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Docker Project</h1>
+        <!-- 버튼 추가 -->
+        <button onclick="goToDockerPage()">Go to Docker Page</button>
+    </div>
+
+    <script>
+        // JavaScript 함수를 사용하여 페이지 이동 처리
+        function goToDockerPage() {
+            window.location.href = "docker.html"; // 이동할 페이지의 URL을 여기에 입력
+        }
+    </script>
+</body>
 </html>
